@@ -13,8 +13,7 @@ All styling was implemented according to the assignment instructions, and the pr
 
 ## Live Site
 GitHub Pages URL:  
-PASTE YOUR LIVE LINK HERE
-
+(https://jsasher.github.io/)
 ## Technologies Used
 - HTML5
 - CSS3
