@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Your Name</title>
+  </head>
+  <body>
+    <nav>
+      <p>Jayden Asher</p>
+      <p><a href="index.html">About Jayden Asher</a></p>
+    </nav>
+
+    <main>
+      <!-- PROFILE -->
+      <section>
+        <h1>Jayden Asher</h1>
+        <p>
+          Athens, GA &bull; (555) 555-5555 &bull;
+          <a href="mailto:jayden@example.com">jayden@example.com</a>
+        </p>
+        <hr />
+      </section>
+
+      <!-- FORM -->
+      <section>
+        <h2>Contact Form</h2>
+
+        <form
+          class="one-col"
+          method="POST"
+          action="https://formsubmit.co/your_unique_form_id"
+        >
+          <p>
+            <label for="name">Name (required)</label><br />
+            <input
+              style="width: 100%; padding: 0.6rem 0.75rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;"
+              type="text"
+              id="name"
+              name="name"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="email">Email (required)</label><br />
+            <input
+              style="width: 100%; padding: 0.6rem 0.75rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="message">Message</label><br />
+            <textarea
+              style="width: 100%; padding: 0.6rem 0.75rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;"
+              id="message"
+              name="message"
+              rows="6"
+            ></textarea>
+          </p>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <a href="index.html">Jayden Asher</a>
+        <a
+          href="https://www.linkedin.com/in/jaydenasher/"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="LinkedIn"
+          >LinkedIn</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
